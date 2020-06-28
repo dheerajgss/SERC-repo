@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    overflow: hidden;
+    
+}
+
+li{
+    float: left;
+    font-family: sans-serif;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
