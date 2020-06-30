@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tableData" style="width: 400px;">
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>SE</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>87</td>
+        </tr>
+        </table>
+<br><br>
+        <form name="myform" method="GET" onsubmit="validate()">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"> <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"> <br><br>
+    
+            <label for="ph_number">Phone number</label>
+            <input type="text" id="ph_number" name="ph_number"> <br><br>
+    
+            <label for="degree">Degree:</label><br>
+            <input type="radio" id="Bachelors" name="degree" value="Bachelors">
+            <label for="bachelors">Bachelors</label><br>
+            <input type="radio" id="Masters" name="degree" value="Masters">
+            <label for="masters">Masters</label><br><br>
+    
+            <label for="sub_interest">Describe interest towards the subject:</label><br>
+            <textarea name="sub_interest" id="sub_interest" cols="30" rows="10"></textarea><br><br>
+    
+            <label for="subject">Subject interests:</label><br>
+            <input type="checkbox" id="subject1" name="subject" value="Cybersecurity" required>
+            <label for="subject1">Cybersecurity</label><br>
+            <input type="checkbox" id="subject2" name="subject" value="Forensics">
+            <label for="subject2">Forensics</label><br>
+            <input type="checkbox" id="subject3" name="subject" value="Cryptography">
+            <label for="subject3">Cryptography</label><br><br>
+            
+            <input type="submit" value="Submit">
+
+            <h2>About JS:</h2><br>
+    <p id="hello"></p>
+    <script src="Java_Script.js"></script>
+</body>
+</html>
