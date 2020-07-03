@@ -4,10 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="jquery.js"></script>
     <title>Hello, world!</title>
     <style>
         .container {
@@ -15,6 +16,21 @@
             margin-top: 30px;
             font-size: large;
             font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .class1 {
+          background-color: crimson;
+          text-align: center;
+          margin-top: 30px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: large;
+        }
+        .class2 {
+          background-color: cornflowerblue;
+          text-align: center;
+          margin-top: 30px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: large;
         }
     </style>
   </head>
@@ -38,14 +54,35 @@
         <p id="para">This text will disappear and re-appear again!!!</p>
         <button type="button" class="btn btn-info" id="hider">Hide</button> &nbsp;&nbsp;
         <button type="button" class="btn btn-info" id="shower">Show</button>
-    </div>
+      </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="jquery.js"></script>
+      <div class="container">
+        <h4>Example text for toggle():</h4><br>
+        <p id="toggling">This text is used for toggling</p>
+        <button type="button" class="btn btn-info" id="toggler">Toggle</button>
+      </div>
+
+      <div class="container">
+        <h4>Example text for fadeToggle():</h4><br>
+        <p id="ftoggling1">This text is the first line</p>
+        <p id="ftoggling2">This text is the second line</p>
+        <button type="button" class="btn btn-info" id="ftoggler">Fade here</button>
+      </div>
+
+      <div class="class1">
+        <p>Double Click this div element to see the magic</p>
+      </div>
+
+      <div class="container">
+        <h4>Below buttons describes about the AJAX get and post methods</h4><br>
+        <button type="button" class="btn btn-info" id="getb">GET button here</button> &nbsp;&nbsp;
+        <button type="button" class="btn btn-info" id="postb">POST button here</button>
+      </div>
+    
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
   </body>
 </html>
